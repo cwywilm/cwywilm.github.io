@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html land="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width", initial-sacle="1.0">
-        <title>Conrad Young Personal Portfolio</title>
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
-    <body>
-        <div id="header">
-            <div class="container">
-                <nav>
-                    <img src="https://inside.charlotte.edu/sites/inside.charlotte.edu/files/media/Logo%20Story_7%20Athletics%20Logo.jpg" class = "logo">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="header-text">
-                    <h1>Hi, I'm <span>Conrad Young</span> and<br>this is my Online Portfolio</h1>
-                </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width" , initial-sacle="1.0">
+    <title>Conrad Young Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://inside.charlotte.edu/sites/inside.charlotte.edu/files/media/Logo%20Story_7%20Athletics%20Logo.jpg"
+                    class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Conrad Young</span> and<br>this is my Online Portfolio</h1>
             </div>
         </div>
+    </div>
     <!-- -------------about----------- -->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="/Users/connieq22/Documents/ITSC1212/OnlinePortfolio/example.png">
+                    <img src="IMG_3905.jpg">
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About Me</h1>
                     <p>Hey! I'm Conrad and I'm a junior Computer Science student in Charlotte, NC. </p>
-                    
+
                     <div class="tab-titles">
-                        <h2 class= "tab-links active-link" onclick="opentab('skills')">Skills</h2>
-                        <h2 class= "tab-links" onclick="opentab('education')">Education</h2>
+                        <h2 class="tab-links active-link" onclick="opentab('skills')">Skills</h2>
+                        <h2 class="tab-links" onclick="opentab('education')">Education</h2>
                     </div>
-                    <div class="tab-contents active-tab" id = "skills">
+                    <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li>Basic Java</li>
                             <li>Basic HTML/CSS</li>
@@ -50,66 +53,70 @@
                             <li>Microsoft Office</li>
                         </ul>
                     </div>
-                    <div class="tab-contents" id = "education">
+                    <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>August 2022</span><br>Associate in Engineering at Cape Fear Community College<br>GPA: 3.51</li>
-                            <li><span>May 2024</span><br>BS in Computer Science, Concentration in Software Engineering at University of North Carolina at Charlotte</li>
+                            <li><span>August 2022</span><br>Associate in Engineering at Cape Fear Community
+                                College<br>GPA: 3.51</li>
+                            <li><span>May 2024</span><br>BS in Computer Science, Concentration in Software Engineering
+                                at University of North Carolina at Charlotte</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<!-- -------------portfolio----------- -->
-<div id="portfolio">
-    <div class="container">
-        <h1 class = "sub-title">My Programs</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="/Users/connieq22/Desktop/Screen Shot 2022-09-20 at 1.00.09 PM.png">
-                <div class="layer">
-                    <h3>Retirement Calculator</h3>
-                    <p>The app calculates retirement savings and expenses dependent on user's financial expectations.</p>
-                    <a href="#">&nearhk;</i></a>
+    <!-- -------------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Programs</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="retirement-calculator.png">
+                    <div class="layer">
+                        <h3>Retirement Calculator</h3>
+                        <p>The app calculates retirement savings and expenses dependent on user's financial
+                            expectations.</p>
+                        <a href="#">&nearhk;</i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="work">
-                <img src="/Users/connieq22/Documents/ITSC1212/OnlinePortfolio/IMG_3662.jpg">
-                <div class="layer">
-                    <h3>Solidworks Gumball Machine</h3>
-                    <p>This was a group school project where I worked with a team to make a 3D model of a gumball machine with moving and interactive parts.</p>
-                    <a href="#">&nearhk;</a>
+                <div class="work">
+                    <img src="persp_final.jpg">
+                    <div class="layer">
+                        <h3>Solidworks Gumball Machine</h3>
+                        <p>This was a group school project where I worked with a team to make a 3D model of a gumball
+                            machine with moving and interactive parts.</p>
+                        <a href="#">&nearhk;</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- -----------------------contact-------------------------- -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><a href="#">cwywilm@gmail.com</a></p>
-                <p><a href="#">(910) 899-7940</a></p>
-                <div class="social-icons">
-                    <p><a href="">LinkedIn</a></p>
-                    <p class="convience">random text to move down the screen for visual convience</p>
+    <!-- -----------------------contact-------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="#">cwywilm@gmail.com</a></p>
+                    <p><a href="#">(910) 899-7940</a></p>
+                    <div class="social-icons">
+                        <p><a href="">LinkedIn</a></p>
+                        <p class="convience">random text to move down the screen for visual convience</p>
+                    </div>
                 </div>
+                <a href="Conrad Young Resume.pdf" download class="btn">Download Resume</a>
             </div>
-            <a href="/Users/connieq22/Documents/ITSC1212/OnlinePortfolio/project2Info.pdf" download class= "btn">Download Resume</a>
         </div>
     </div>
-</div>
     <script>
 
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link")
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab")
             }
             event.currentTarget.classList.add("active-link");
@@ -117,5 +124,7 @@
         }
 
     </script>
-    </body>
+
+</body>
+
 </html>
